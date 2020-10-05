@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.Todo {
+  padding-top: 5em;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.header {
+  text-align: center;
+}
+
+.TodoList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.TodoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.TodoItem span input {
+  margin-right: 1rem;
+}
+
+.TodoItem span b {
+  margin-right: 4px;
+}
+
+.TodoBtn {
+  border-radius: 25%;
+  background: #e91e1eab;
+  color: #000000;
+  border: none;
+  font-weight: 800;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.AddTodo {
+  margin-top: 1rem;
+}
+
+.AddTodo button {
+  margin-left: 1rem;
+}
